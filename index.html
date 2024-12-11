@@ -8,26 +8,36 @@
   <script src="main.js" defer></script>
 </head>
 <body>
-<header>
+  <header>
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#planner">Planner</a></li>
-        <li><a href="#settings">Settings</a></li>
-      </ul>
+      <section id="home">
+        <h1>Life Planner Pro,</h1>
+        <h2>The simplest FREE planner on the internet</h2>
+      </section>
+  
     </nav>
-</header>
+  </header>
 <main>
-    <section id="home">
-      <h1>Welcome to Life Planner Pro!</h1>
-    </section>
     <section id="planner">
-      <div id="task-manager"></div>
-      <div id="calendar"></div>
+      <h2>Task Manager</h2>
+      <div id="task-manager">
+        <input type="text" id="taskInput" placeholder="Enter your task">
+        <button id="addButton">Add Task</button>
+        <ul id="taskList"></ul>
+      </div>
     </section>
+
     <section id="settings">
       <h2>Customize Your Planner</h2>
+      <h3>Switch to Dark Mode!</h3>
+    <label class="toggle-switch">
+      <input type="checkbox" id="themeToggle">
+      <span class="slider"></span>
+    </label>
+      <p>new themes coming soon!</p>
     </section>
-  </main>
+</main>
+
+<footer></footer>
 </body>
 </html>
