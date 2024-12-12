@@ -17,7 +17,6 @@ body.dark-theme {
   color: #a5d6a7; 
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -26,7 +25,6 @@ header {
   background-color: #4caf50;
   color: white;
 }
-
 
 .toggle-switch {
   position: relative;
