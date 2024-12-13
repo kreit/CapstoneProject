@@ -26,6 +26,29 @@ header {
   color: white;
 }
 
+.calendar-link {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #4CAF50; 
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+.calendar-link:hover {
+  background-color: #45a049; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.calendar-link:active {
+  background-color: #3d8c42; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
 .toggle-switch {
   position: relative;
   display: inline-block;
